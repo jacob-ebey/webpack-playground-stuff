@@ -1,0 +1,12 @@
+::placeholder {
+  color: gray;
+}
+
+.image {
+  background-color: red;
+}
+@media (min-resolution: 2dppx) {
+  .image {
+    background-color: blue;
+  }
+}
